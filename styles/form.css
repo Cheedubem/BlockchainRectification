@@ -61,3 +61,15 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #45a049;
 }
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  body main h1 {
+    font-size: 2rem;
+    padding: 20px;
+  }
+  form {
+    max-width: 300px;
+    padding: 30px;
+  }
+}

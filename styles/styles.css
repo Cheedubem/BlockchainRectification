@@ -119,6 +119,12 @@ footer a {
 @media (max-width: 768px) {
   body main h1 {
     font-size: 2rem;
+    padding: 20px;
+  }
+  .block-rec {
+    padding: 1rem 2rem;
+    background-color: #001f1c;
+    color: #fff;
   }
   .grid-container {
     grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
@@ -134,5 +140,8 @@ footer a {
 @media (max-width: 480px) {
   .grid-container {
     grid-template-columns: 1fr; /* Single column on even smaller screens */
+  }
+  .make-selection {
+    padding: 1rem 2rem;
   }
 }
